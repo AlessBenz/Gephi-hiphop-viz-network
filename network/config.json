@@ -8,14 +8,14 @@
     "text": "AlessBenz"
   },
   "text": {
-    "more": "test graph",
-    "intro": "test graph",
-    "title": "Hip hop artists"
+    "more": "About this visualization\n\nThis interactive network shows hip-hop artists and their collaborations.\n\nHow to use\n• Search for an artist by name\n• Click a node to open the information pane\n• Use the zoom controls to navigate\n\nVisual encodings\n• Node size: centrality (more connected artists appear larger)\n• Node color: community / cluster (modularity)\n\nBuilt in R and exported to Gephi using the Sigma.js web export.",
+    "intro": "An interactive network of hip-hop artists and collaborations. Nodes represent artists and edges represent collaborations. Use Search to find an artist, and Group Selector to highlight communities.",
+    "title": "Hip-hop Collaboration Network"
   },
   "legend": {
-    "edgeLabel": "Features",
-    "colorLabel": "Modularity",
-    "nodeLabel": "Artists"
+    "edgeLabel": "Collaboration (edge)",
+    "colorLabel": "Community / cluster (color)",
+    "nodeLabel": "Artist (node)"
   },
   "features": {
     "search": true,
